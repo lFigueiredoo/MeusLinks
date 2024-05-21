@@ -6,6 +6,7 @@ import Whatsapp from '../assets/images/Whatsapp.svg'
 import Linkedin from '../assets/images/linkedin.svg'
 import Email from '../assets/images/Email.svg'
 import Eu from '../assets/images/Eu.png'
+import pdf from '../assets/Luiz-CV.pdf'
 
 
 
@@ -49,7 +50,7 @@ export function Links(){
           <a href="https://meutempolocal.netlify.app" target="_blank" className={styles.Btn}>
             <span>Tempo Local</span>
           </a>
-          <a href='../assets/images/Luiz - CV.pdf' target="_blank" className={styles.Btn}>
+          <a href={pdf} target="_blank" className={styles.Btn}>
             <span>CV</span>
           </a>
         </div>
