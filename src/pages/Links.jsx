@@ -49,7 +49,7 @@ export function Links(){
           <a href="https://meutempolocal.netlify.app" target="_blank" className={styles.Btn}>
             <span>Tempo Local</span>
           </a>
-          <a href="./assets/Luiz - CV.pdf" target="_blank" className={styles.Btn}>
+          <a href='../assets/images/Luiz - CV.pdf' target="_blank" className={styles.Btn}>
             <span>CV</span>
           </a>
         </div>
