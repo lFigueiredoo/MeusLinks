@@ -17,8 +17,7 @@ export function Links(){
         <div className={styles.ContainerFoto}>
           <img src={Eu} alt="" />
         </div>
-        <small>@LuizDev</small>
-        <h1>Front-End Developer</h1>
+        <h1 className={styles.typing}>Front-End Developer</h1>
         <div className={styles.ContainerRedes}>
             <Link href="https://www.instagram.com/luizc.f.c/" 
             target="_blank" 
@@ -54,6 +53,7 @@ export function Links(){
             <span>CV</span>
           </a>
         </div>
+        <small className={styles.name}>@LuizDev</small>
       </div>
     </main>
     )

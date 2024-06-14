@@ -69,6 +69,26 @@ a:focus, a:hover, a:visited{
     margin-top: 24px;
 }
 
+.typing{
+    width: 250px;
+    animation: typing 6.5s steps(22) infinite, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-size: 1.5em;
+}
+
+@keyframes typing{
+    from{
+        width: 0
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
 .Btn{
     border: none;
     border-radius: 12px;
@@ -88,6 +108,10 @@ a:focus, a:hover, a:visited{
     rgb(17, 76, 130) -6.31%, 
     rgb(36, 153, 206) 102.58%);
     animation: 1s linear 0s infinite normal none running hvVbpe;
+}
+
+.name{
+    margin-top: 100px;
 }
 
 .Btn:hover{
@@ -133,11 +157,11 @@ a:focus, a:hover, a:visited{
     62% {
         background: linear-gradient(225deg, rgba(36, 153, 206, .5) -6.31%, rgb(38, 126, 168) 102.58%);
     }
-   
+
     75% {
         background: linear-gradient(270deg, rgba(49, 177, 236, .5) -6.31%, rgb(38, 126, 168) 102.58%);
     }
-   
+
     82% {
         background: linear-gradient(315deg, rgba(36, 153, 206, .5) -6.31%, rgb(38, 126, 168) 102.58%);
     }
