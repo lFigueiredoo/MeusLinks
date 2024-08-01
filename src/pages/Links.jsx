@@ -67,7 +67,7 @@ export function Links() {
             <span>CV</span>
           </a>
         </div>
-        <small className={styles.name}>@LuizDev</small>
+        <small className={styles.name}>@lFigueiredo</small>
       </div>
     </main>
   );
