@@ -66,6 +66,13 @@ export function Links() {
           <a href={pdf} target="_blank" className={styles.Btn}>
             <span>CV</span>
           </a>
+          <a
+            href="https://diaprodutivo.netlify.app/login"
+            target="_blank"
+            className={styles.Btn}
+          >
+            <span>Dia Produtivo (Organize suas tarefas do dia)</span>
+          </a>
         </div>
         <small className={styles.name}>@lFigueiredo</small>
       </div>
