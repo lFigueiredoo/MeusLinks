@@ -67,7 +67,7 @@ export function Links() {
             <span>CV</span>
           </a>
           <a
-            href="https://diaprodutivo.netlify.app/login"
+            href="https://diaprodutivo.netlify.app"
             target="_blank"
             className={styles.Btn}
           >
