@@ -74,7 +74,6 @@ export function Links() {
             <span>Dia Produtivo (Organize suas tarefas do dia)</span>
           </a>
         </div>
-        <small className={styles.name}>@lFigueiredo</small>
       </div>
     </main>
   );
